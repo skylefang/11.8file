@@ -1,0 +1,242 @@
+@import url('base.css');
+.banner{
+    width: 100%;
+    height: 800px;
+    /* position: relative; */
+}
+.bannertu{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.bannertu li{
+    width: 100%;
+    height: 100%;
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+}
+.bannertu li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bannertu li a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.top{
+    width: 1170px;
+    height: 100px;
+    position: absolute;
+    /* background: red; */
+    left: 94px;
+    top: 0;
+    z-index: 999;
+
+}
+.banner-top{
+    width: 1170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    border-bottom: 1px solid #6B7A8D;
+}
+.banner-left{
+    float: left;
+}
+.banner-left li{
+    float: left;
+    margin-right: 20px;
+}
+.banner-left li a{
+    /* font-size: 20px; */
+    color: #fff;
+    line-height: 22px;
+}
+.banner-left li a i{
+    font-size: 22px;
+}
+.banner-right{
+    float: right;
+}
+.banner-right li{
+    float: left;
+    margin-right: 30px;
+}
+.banner-right li a i{
+    font-size: 18px;
+    color: #fff;
+}
+.banner-right li a i:hover{
+    color: #FD5C63;
+}
+.top2{
+    width: 100%;
+    height: 60px;
+    /* background: yellow; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top2-left{
+    float: left;
+}
+.top2-left a h2{
+    color: #fff;
+    font-size: 26px;
+}
+.top2-right{
+    float: right;
+}
+.top2-right li{
+    float: left;
+    margin-right: 20px;
+    line-height: 40px;
+}
+.top2-right li a h6{
+    font-size: 16px;
+    color: #fff;
+    transition: all .5s;
+    letter-spacing: 3px;
+}
+.top2-right li a h6:hover{
+    color: #FD5C63;
+}
+/*html,body{
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}*/
+.imgBox{
+    width: 100%;
+    height: 728px;
+    display: flex;
+    padding: 70px 150px;
+    /*justify-content: space-between;
+    flex-wrap: wrap;*/
+    position: absolute;
+    background: #DCEDF9;
+    left: 0;
+    top: 100px;
+}
+.imgBox .box{
+    width: 920px;
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.imgBox .box li{
+    width: 300px;
+    height: 200px;
+    background: #DCEDF9;
+}
+.imgBox .box li a,img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+div.mask{
+    width:600px;
+    height: 380px;
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0,0,0,1);
+    transform: scale(0,0);
+    transition: .5s;
+    z-index: 9999;
+}
+div.mask .wenzi{
+    width: 50px;
+    height: 30px;
+    /*background: yellow;*/
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    right: -10px;
+    top: 380px;
+    text-align: center;
+    line-height: 30px;
+}
+div.mask .wenzi span{
+    font-size: 20px;
+    color: #e87ed0;
+    text-align: center;
+    line-height: 30px;
+}
+div.mask img{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+div.mask.active{
+    transform: scale(1,1);
+}
+div.mask .close{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    /*background: red;*/
+    overflow: hidden;
+    top:-35px;
+    right: -25px;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+}
+div.mask .close i{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+div.mask .btnL{
+    width:60px;
+    height: 60px;
+    position: absolute;
+    top:calc(50% - 30px);
+    /*background: rgba(255,255,255,0.5);*/
+    left: -160px;
+    text-align: center;
+    line-height: 60px;
+    color: #e8e4e3;
+}
+div.mask .btnL i{
+    font-size: 30px;
+    font-weight: 600;
+}
+div.mask .btnL:hover{
+    color: #dda2df;
+}
+div.mask .btnR{
+    width:60px;
+    height: 60px;
+    position: absolute;
+    top:calc(50% - 30px);
+    /*background: rgba(255,255,255,0.5);*/
+    right: -160px;
+    text-align: center;
+    line-height: 60px;
+    color: #e8e4e3;
+}
+div.mask .btnR i{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+div.mask .btnR:hover{
+    color: #dda2df;
+}

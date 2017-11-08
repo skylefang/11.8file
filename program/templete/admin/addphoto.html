@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .panel{
+        width: 95%;
+        min-height: 300px;
+        /*background: url("../static/img/t1.jpg") center;*/
+        border:1px solid #cccccc;
+        border-radius: 4px 4px 0 0;
+        padding: 20px 30px;
+    }
+    form{
+        width: 100%;
+        height: 100%;
+    }
+    .formgroup{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .formgroup label{
+        width: 80px;
+        height: 100%;
+        line-height: 50px;
+    }
+    .formgroup select{
+        width: 100%;
+        height: 30px;
+    }
+    .formgroup input{
+        width: 98%;
+        height: 30px;
+        outline: none;
+        padding-left: 15px;
+    }
+    .formgroup input:focus{
+        border: 1px solid #03a9f4;
+    }
+    .formgroup .tijiao{
+        width: 80px;
+        height: 40px;
+        margin-top: 10px;
+        outline: none;
+        border-radius: 4px;
+        background: #71A5ED;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 5px;
+    }
+</style>
+<body>
+<div class="panel">
+    <form action="addphoto.php" method="post" enctype="multipart/form-data">
+        <div class="formgroup">
+            <label>父级栏目</label>
+            <select name="gid" id="">
+                <option value="0">一级栏目</option>
+                <?php echo $str;?>
+            </select>
+        </div>
+
+        <div class="formgroup">
+            <label>缩略图1</label>
+            <input type="file" name="img1" multiple>
+        </div>
+
+        <div class="formgroup">
+            <label>缩略图2</label>
+            <input type="file" name="img2" multiple>
+        </div>
+
+        <div class="formgroup">
+            <label>缩略图3</label>
+            <input type="file" name="img3" multiple>
+        </div>
+
+        <div class="formgroup">
+            <label>缩略图4</label>
+            <input type="file" name="img4" multiple>
+        </div>
+
+        <div class="formgroup">
+            <label>缩略图5</label>
+            <input type="file" name="img5" multiple>
+        </div>
+
+        <div class="formgroup">
+            <label>缩略图6</label>
+            <input type="file" name="img6" multiple>
+        </div>
+
+        <div class="formgroup">
+            <label>缩略图7</label>
+            <input type="file" name="img7" multiple>
+        </div>
+
+        <div class="formgroup">
+            <label>缩略图8</label>
+            <input type="file" name="img8" multiple>
+        </div>
+
+        <div class="formgroup">
+            <label>缩略图9</label>
+            <input type="file" name="img9" multiple>
+        </div>
+
+        <div class="formgroup">
+            <label>所属图集名称</label>
+            <input type="text" name="showtable" placeholder="页面名字">
+        </div>
+
+        <div class="formgroup">
+            <input type="submit" value="提交" name="sub" class="tijiao">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

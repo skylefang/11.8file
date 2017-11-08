@@ -1,0 +1,576 @@
+@import url('base.css');
+.banner{
+	width: 100%;
+	height: 650px;
+	overflow: hidden;
+	position: relative;
+}
+.banner .bannertu{
+	width: 100%;
+	height: 650px;
+}
+.banner .bannertu li{
+	width: 100%;
+	height: 100%;
+}
+.banner .bannertu li a,img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.bannerd{
+	width: 100%;
+	height: 650px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.bl{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.8);
+	position: absolute;
+    left: 94px;
+    top: 50%;
+    margin-top: -25px;
+    /* opacity: 0; */
+}
+.bl a{
+	display: block;
+	margin-left: 15px;
+}
+.bl a i{
+	font-size: 20px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+    font-weight: 600;
+}
+.br{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.8);
+	position: absolute;
+    right: 94px;
+    top: 50%;
+    margin-top: -25px;
+    /* opacity: 0; */
+}
+.br a{
+	display: block;
+	margin-left: 15px;
+}
+.br a i{
+	font-size: 20px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+    font-weight: 600;
+}
+.bannertud li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.bannertud li:first-child{
+	display: block;
+}
+.bannertud li .siminfor{
+	width: 300px;
+	height: 300px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -150px;
+	z-index: 999;
+}
+.bannertud li .siminfor h1{
+	font-size: 30px;
+	color: #ffffff;
+	line-height: 300px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+.bannertud li .siminfor h1 a{
+	color: #ffffff;
+}
+.bannertud li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.bannertu li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.top{
+	width: 1170px;
+	height: 100px;
+	position: absolute;
+	/* background: red; */
+	left: 94px;
+	top: 0;
+	z-index: 9999;
+
+}
+.banner-top{
+	width: 1170px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 40px;
+	border-bottom: 1px solid #6B7A8D;
+}
+.banner-left{
+	float: left;
+}
+.banner-left li{
+	float: left;
+	margin-right: 20px;
+}	
+.banner-left li a{
+   /* font-size: 20px; */
+   color: #fff;
+   line-height: 22px;
+}
+.banner-left li a i{
+	font-size: 22px;
+}
+.banner-right{
+	float: right;
+} 
+.banner-right li{
+	float: left;
+	margin-right: 30px;
+}
+.banner-right li a i{
+	font-size: 18px;
+	color: #fff;
+}
+.banner-right li a i:hover{
+	color: #FD5C63;
+}
+.top2{
+	width: 100%;
+	height: 60px;
+	/* background: yellow; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.top2-left{
+	float: left;
+}
+.top2-left a h2{
+	color: #fff;
+	font-size: 26px;
+}
+.top2-right{
+	float: right;
+}
+.top2-right li{
+	float: left;
+	margin-right: 20px;
+	line-height: 40px;
+}
+.top2-right li a h6{
+	font-size: 16px;
+	color: #fff;
+	transition: all .5s;
+    letter-spacing: 3px;
+}
+.top2-right li a .home{
+	color: #FD5C63;
+}
+.top2-right li a h6:hover{
+	color: #FD5C63;
+}
+.sec{
+	width: 100%;
+	height: 540px;
+	background: #DCEDF9;
+}
+.sec1{
+	width: 100%;
+	height: 120px;
+	/* background: red; */
+	padding-top: 60px;
+}
+.sec1 h3{
+	font-size: 32px;
+	color: #383838;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.sec2{
+	width: 100%;
+	height: 30px;
+	/* background: yellow; */
+}
+.sec2 h6{
+	font-size: 10px;
+	color: #473D38;
+	line-height: 30px;
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+.sec3{
+	height: 300px;
+	padding-top: 65px;
+	padding-right: 94px;
+	padding-left: 94px;
+	display: flex;
+	justify-content: space-between;
+}
+.sec3 li{
+	width: 255px;
+	height: 255px;
+	/* background: yellow; */
+	border-radius: 50%;
+	position: relative;
+}
+.sec3 li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.sec3 li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.wenzi{
+	width: 255px;
+	height: 255px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 666;
+}
+.wenzi a h6{
+	font-size: 30px;
+    color: #fff;
+    line-height: 255px;
+    text-align: center;
+    font-weight: normal;
+	letter-spacing: 10px;
+}
+.yuanhuan{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 77px;
+	opacity: 0;
+	transition: all .5s;
+}
+.sec3 li:hover .yuanhuan{
+	opacity: 1;
+	transform: scale(2, 2);
+}
+.three{
+	width: 100%;
+	height: 513px;
+	background: #CEDDB6;
+	padding: 65px 0;
+}
+.photo{
+	width: 1140px;
+	height: 385px;
+	margin: 0 auto;
+	background: yellow;
+	position: relative;
+}
+.photo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.photo a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.wenzibox{
+	width: 1140px;
+	height: 385px;
+	padding: 80px 60px;
+	/* background: yellow; */
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.wenzibox h5{
+	width: 1017px;
+	height: 85px;
+	font-size: 60px;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 20px;
+}
+.wenzibox h6{
+	width: 1017px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 20px;
+	letter-spacing: 1px;
+}
+.wenzibox .h61{
+	margin-left: 5px;
+	margin-top: 0;
+	letter-spacing: 1px;
+}
+.wenzibox .btn{
+	width: 123px;
+	height: 33px;
+	background: #fff;
+	margin: 40px auto;
+	border-radius: 5px;
+	transition: all .5s;
+}
+.wenzibox .btn:hover{
+	background: #FD5C7B;	
+}
+.wenzibox .btn a{
+	display: block;
+	width: 123px;
+	height: 33px;
+}
+.wenzibox .btn a h6{
+	width: 123px;
+	height: 33px;
+	color: #3E3838;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 33px;
+}
+.wenzibox .btn:hover a h6{
+	color: #fff;
+}
+.four{
+	width: 100%;
+	height: 680px;
+	background: #DCEDF9;
+	padding: 40px 120px;
+}
+.four h1{
+	width: 380px;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 40px;
+	color: #383838;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.four h6{
+	width: 630px;
+	height: 20px;
+	margin: 20px auto;
+	font-weight: normal;
+	font-size: 14px;
+	color: #3E3838;
+	letter-spacing: 1px;
+}
+.four .four1{
+	width: 1110px;
+	height: 432px;
+	margin-top: 65px;
+	display: flex;
+	justify-content: space-between;
+}
+.four .four1 li{
+	width: 350px;
+	height: 432px;
+	background: #fff;
+	overflow: hidden;
+}
+.four .four1 li .litop{
+    width: 334px;
+    height: 188px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.four .four1 li .litop a{
+	display: block;
+	width: 334px;
+    height: 188px;
+}
+.four .four1 li .litop a img{
+	display: block;
+	width: 334px;
+    height: 188px;
+}
+.four .four1 li .limid{
+	width: 310px;
+	height: 20px;
+	margin: 10px auto;
+}
+.four .four1 li .limid .midleft{
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+.four .four1 li .limid .midleft a i{
+	font-size: 14px;
+	color: #383838;
+}
+.four .four1 li .limid .midleft a i:hover{
+	color: #FD5C63;
+}
+.four .four1 li .limid .midright{
+	width: 130px;
+	height: 100%;
+	float: right;
+}
+.four .four1 li .limid .midright a i{
+	font-size: 14px;
+	color: #383838;
+}
+.four .four1 li .libott{
+	width: 310px;
+	height: 40px;
+	margin: 10px auto;
+}
+.four .four1 li .libott a h6{
+    font-size: 16px;
+    color: #FD5C63;
+    font-weight: 600;
+}
+.four .four1 li .libott a h6:hover{
+	color: #000;
+}
+.four .four1 li .libott2{
+	width: 310px;
+	height: 120px;
+	margin: 10px auto;
+}
+.four .four1 li .libott2 h6{
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 26px;
+	color: #C9BBBB;
+}
+.bottom{
+	width: 100%;
+	height: 230px;
+	background: #fff;
+	padding: 40px 120px;
+}
+.bottom ul{
+	width: 1110px;
+	height: 141px;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom ul li{
+	width: 220px;
+	height: 155px;
+	background: #fff;
+}
+.bottom ul li h3{
+	width: 100%;
+	height: 40px;
+	font-size: 30px;
+	color: #383838;
+	line-height: 40px;
+	font-weight: normal;
+
+}
+.bottom ul li .rest{
+	width: 100%;
+	height: 100px;
+}
+.bottom ul li .rest h6{
+	font-size: 14px;
+	color: #BBC1D2;
+	line-height: 26px;
+	font-weight: normal;
+}
+.bottom ul li .rest h6 a{
+	font-size: 14px;
+	color: #BBC1D2;
+}
+.bottom ul .icon4 .rest2{
+	width: 220px;
+	height: 40px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom ul .icon4 .rest2 .yuan{
+	width: 40px;
+	height: 40px;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 50%;
+	transition: all .5s;
+}
+.bottom ul .icon4 .rest2 .yuan:hover{
+	background: #FD5C63;
+}
+.bottom ul .icon4 .rest2 .yuan a{
+	display: block;
+	width: 29px;
+	height: 40px;
+	border-radius: 50%;
+	padding-left: 11px;
+}
+.icon4 .rest2 .yuan a i{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+.bottom ul .enter2 .rest3{
+	width: 220px;
+	height: 40px;
+	margin-top: 10px;
+}
+.bottom ul .enter2 .rest3 textarea{
+	width: 220px;
+	height: 40px;
+	resize: none;
+	outline: none;
+	font-size: 14px;
+	line-height: 38px;
+	padding-left: 10px;
+}
+.bottom ul .enter2 .rest4{
+	width: 220px;
+	height: 40px;
+	margin-top: 10px;
+}
+.bottom ul .enter2 .rest4 button{
+	width: 125px;
+	height: 40px;
+	border: 2px solid #383838;
+	outline: none;
+	background: #fff;
+	border-radius: 5px;
+	font-size: 14px;
+	transition: all .5s;
+}
+.bottom ul .enter2 .rest4 button:hover{
+	border: 2px solid #FD5C63;
+	color: #FD5C63;
+}

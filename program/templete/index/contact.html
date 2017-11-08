@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="/skelyfang/program/static/css/contact.css">
+<div class="lianxi">
+    <h1><?php echo $list['name'];?></h1>
+    <h6><?php echo $list['shortdes'];?></h6>
+    <div class="lxbox">
+        <li class="getc">
+            <h5><?php echo $list['name1'];?></h5>
+            <div class="lianxiwenzi">
+					<span><?php echo $list['longdes'];?>
+					</span>
+            </div>
+            <div class="lxstyle">
+                <div class="fangshi">
+                    <div class="yuan1">
+                        <i class="iconfont icon-iconorderdetailscellphone"></i>
+                    </div>
+                    <div class="dianhua">
+                        <span><?php echo $list['question'];?></span>
+                    </div>
+                </div>
+                <div class="fangshi">
+                    <div class="yuan1">
+                        <i class="iconfont icon-youjian"></i>
+                    </div>
+                    <div class="dianhua">
+                        <span><?php echo $list['answer'];?></span>
+                    </div>
+                </div>
+                <div class="fangshi">
+                    <div class="yuan1">
+                        <i class="iconfont icon-dingwei"></i>
+                    </div>
+                    <div class="dianhua">
+                        <span><?php echo $list['name2'];?></span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="leavec">
+            <h5>留言区</h5>
+            <form action="liuyan.php" method="post">
+                <textarea name="lname" placeholder="姓名"></textarea>
+                <textarea name="lemile" placeholder="邮件"></textarea>
+                <textarea name="lphone" placeholder="电话"></textarea>
+                <textarea name="lcont" placeholder="留言内容"></textarea>
+                <input type="submit" placeholder="提交" name="sub" class="tijiao">
+            </form>
+        </li>
+    </div>
+</div>

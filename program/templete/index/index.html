@@ -1,0 +1,151 @@
+<script src="/skelyfang/program/static/js/index.js"></script>
+<!-- banner图开始 -->
+<section class="bannerd">
+    <ul class="bannertud">
+        <li>
+            <a href="/skelyfang/program/index/list.php"><img src="<?php echo $list4['thumb2']?>" alt=""></a>
+            <div class="siminfor">
+                <h1><a href="/skelyfang/program/index/list.php">昆明</a></h1>
+            </div>
+        </li>
+        <li>
+            <a href="dali.html"><img src="<?php echo $list4['thumb3']?>" alt=""></a>
+            <div class="siminfor">
+                <h1><a href="dali.html">大理</a></h1>
+            </div>
+        </li>
+        <li>
+            <a href="lijiang.html"><img src="<?php echo $list4['thumb4']?>" alt=""></a>
+            <div class="siminfor">
+                <h1><a href="lijiang.html">丽江</a></h1>
+            </div>
+        </li>
+        <li>
+            <a href="xianggelila.html"><img src="<?php echo $list4['thumb5']?>" alt=""></a>
+            <div class="siminfor">
+                <h1><a href="xianggelila.html">香格里拉</a></h1>
+            </div>
+        </li>
+    </ul>
+    <div class="bl">
+        <a href="javascript:;"><i class="iconfont icon-mjiantou-copy"></i></a>
+    </div>
+    <div class="br">
+        <a href="javascript:;"><i class="iconfont icon-mjiantou-copy1"></i></a>
+    </div>
+</section>
+<!-- banner图结束 -->
+<!-- 第三版开始 -->
+<div class="three">
+    <div class="photo">
+
+        <a href=""><img src="<?php echo $list3['thumb'];?>" alt=""></a>
+        <div class="wenzibox">
+            <h5><?php echo $list3['name'];?></h5>
+            <h6><?php echo $list3['shortdes'];?></h6>
+            <h6 class="h61"><?php echo $list3['longdes'];?></h6>
+            <div class="btn">
+                <a href="list.php?cid=7"><h6><?php echo $list3['name1'];?></h6></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 第三版结束 -->
+<!-- 第二版开始 -->
+<div class="sec">
+    <div class="sec1">
+        <h3><?php echo $list4['name'];?></h3>
+    </div>
+    <div class="sec2">
+        <h6><?php echo $list4['shortdes'];?></h6>
+    </div>
+
+    <div class="sec3">
+        <?php
+        for($i=0;$i<count($data1);$i++){
+        ?>
+        <li>
+            <a href="">
+                <img src="<?php echo $data1[$i]['image1'];?>" alt="">
+            </a>
+            <div class="wenzi">
+                <a href="list.php?cid=<?php echo $data1[$i]['cid'];?>">
+                    <h6><?php echo $data1[$i]['cname'];?></h6>
+                </a>
+            </div>
+            <a href=""><div class="yuanhuan"></div></a>
+        </li>
+        <?php
+            }
+            ?>
+    </div>
+</div>
+<!-- 第二版结束 -->
+
+<!-- 第四版开始 -->
+<!--<div class="four">
+    <h1>评论 & 重大事件</h1>
+    <h6>如果您对我们不信任，请看这里，这里是广大网友留给我们的珍贵财富，您可以作为参考。</h6>
+    <ul class="four1">
+        <li>
+            <div class="litop">
+                <a href=""><img src="img/n1.jpg" alt=""></a>
+            </div>
+            <div class="limid">
+                <div class="midleft">
+                    <a href=""><i class="iconfont icon-lianxiren-copy">&nbsp&nbspAdmin</i></a>
+                </div>
+                <div class="midright">
+                    <a href=""><i class="iconfont icon-rili"> 10 01,2017</i></a>
+                </div>
+            </div>
+            <div class="libott">
+                <a href=""><h6>Quisque gravida, nunc eu interdum <br>porta</h6></a>
+            </div>
+            <div class="libott2">
+                <h6>Aliquam erat volutpat. Duis vulputate <br> tempus laoreet. Integer viverra eleifend <br>neque, eget dictum lectus. Quisque eu <br>tempor dolor.</h6>
+            </div>
+        </li>
+        <li>
+            <div class="litop">
+                <a href=""><img src="img/n2.jpg" alt=""></a>
+            </div>
+            <div class="limid">
+                <div class="midleft">
+                    <a href=""><i class="iconfont icon-lianxiren-copy">&nbsp&nbspAdmin</i></a>
+                </div>
+                <div class="midright">
+                    <a href=""><i class="iconfont icon-rili"> May 09,2016</i></a>
+                </div>
+            </div>
+            <div class="libott">
+                <a href=""><h6>Quisque gravida, nunc eu interdum <br>porta</h6></a>
+            </div>
+            <div class="libott2">
+                <h6>Aliquam erat volutpat. Duis vulputate <br> tempus laoreet. Integer viverra eleifend <br>neque, eget dictum lectus. Quisque eu <br>tempor dolor.
+                </h6>
+            </div>
+        </li>
+        <li>
+            <div class="litop">
+                <a href=""><img src="img/n3.jpg" alt=""></a>
+            </div>
+            <div class="limid">
+                <div class="midleft">
+                    <a href=""><i class="iconfont icon-lianxiren-copy">&nbsp&nbspAdmin</i></a>
+                </div>
+                <div class="midright">
+                    <a href=""><i class="iconfont icon-rili"> May 09,2016</i></a>
+                </div>
+            </div>
+            <div class="libott">
+                <a href=""><h6>Quisque gravida, nunc eu interdum <br>porta</h6></a>
+            </div>
+            <div class="libott2">
+                <h6>Aliquam erat volutpat. Duis vulputate <br> tempus laoreet. Integer viverra eleifend <br>neque, eget dictum lectus. Quisque eu <br>tempor dolor.</h6>
+            </div>
+        </li>
+    </ul>
+</div>-->
+<!-- 第四版结束 -->
+

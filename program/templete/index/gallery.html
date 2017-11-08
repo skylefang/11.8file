@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="/skelyfang/program/static/css/gallery.css">
+<div class="kunming">
+    <h1><?php echo $list['name']?></h1>
+    <h6><?php echo $list['shortdes']?></h6>
+    <div class="infor">
+        <div class="infor1">
+            <?php
+            for($i=0;$i<count($list2);$i++){
+            ?>
+            <li class="big<?php echo $i+1?>">
+                <a href="">
+                    <img src="<?php echo $list2[$i]['gphoto']?>" alt="">
+                </a>
+                <div class="zhezhao<?php echo $i+1?>">
+                    <a href="show.php?cid=<?php echo 7?>&sid=<?php echo $i+1?>">
+                        <?php echo $list2[$i]['gname']?>
+                    </a>
+                </div>
+            </li>
+            <?php
+            }
+            ?>
+        </div>
+        <div class="pages">
+            <ul>
+                <li>
+                    <a href="list.php?cid=<?php echo $cid?>&page=<?php echo $page-1>1 ? $page-1 : 1 ;?>"> « </a>
+                </li>
+                <?php
+                for($i=1;$i<=$pages;$i++){
+                ?>
+                <li>
+                    <a href="list.php?cid=<?php echo $cid?>&page=<?php echo $i?>" class="<?php echo $i==$page ? 'active' : '' ;?>">
+                        <?php echo $i;?>
+                    </a>
+                </li>
+                <?php
+                 }?>
+                <li>
+                    <a href="list.php?cid=<?php echo $cid?>&page=<?php echo $page+1 < $i ? $page+1 : $i-1 ;?>"> » </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

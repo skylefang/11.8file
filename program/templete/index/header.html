@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云南</title>
+    <link rel="stylesheet" href="/skelyfang/program/static/css/index.css">
+    <link rel="stylesheet" href="/skelyfang/program/static/css/iconfont/iconfont.css">
+    <script src="/skelyfang/program/static/js/jquery-3.2.1.js"></script>
+</head>
+<body>
+<!-- banner图开始 -->
+<section class="banner">
+    <ul class="bannertu">
+        <li>
+            <a href=""><img src="/skelyfang/program/static/img/8.jpg" alt=""></a>
+        </li>
+    </ul>
+</section>
+<!-- banner图结束 -->
+<!-- banner图上的文字开始 -->
+<div class="top">
+    <section class="banner-top">
+        <div class="banner-left">
+            <li>
+                <a href=""><i class="iconfont icon-iconorderdetailscellphone"></i> +1 234 567 8901</a>
+            </li>
+            <li>
+                <a href=""><i class="iconfont icon-youjian"></i> mail@example.com</a>
+            </li>
+        </div>
+        <div class="banner-right">
+            <li>
+                <a href=""><i class="iconfont icon-facebookf"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="iconfont icon-xiaoniao"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="iconfont icon-qq"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="iconfont icon-weixin1"></i></a>
+            </li>
+        </div>
+    </section>
+    <section class="top2">
+        <div class="top2-left">
+            <a href=""><h2>Private Trip</h2></a>
+        </div>
+        <style>
+            .top2-right li a h6.active{
+                color: #FD5C63;
+            }
+        </style>
+        <div class="top2-right">
+            <li>
+                <a href="/skelyfang/program/index/index.php"><h6>主页</h6></a>
+            </li>
+
+            <?php
+            for($i=0;$i<count($nav);$i++){
+            ?>
+            <li>
+                <a href="list.php?cid=<?php echo $nav[$i]['cid']?>">
+                    <h6><?php echo $nav[$i]['cname'];?></h6>
+                </a>
+            </li>
+
+            <?php
+            }
+            ?>
+
+        </div>
+    </section>
+</div>
+
